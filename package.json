@@ -1,0 +1,13 @@
+{
+  "name": "dayline-reminder-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node reminder-worker.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0",
+    "luxon": "^3.5.0"
+  }
+}
